@@ -68,3 +68,11 @@ node_modules/: package.json yarn.lock
 	yarn install
 	touch node_modules/
 # End Prepare Targets
+
+# Begin Docker Targets
+docker.up:
+	cd services/mysql/ && docker-compose up -d
+
+docker.down:
+	cd services/mysql/ && docker-compose down
+# End Docker Targets
