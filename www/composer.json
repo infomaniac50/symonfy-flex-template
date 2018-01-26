@@ -1,0 +1,115 @@
+{
+    "name": "derek/player-contacts",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/infomaniac50/select2entity-bundle"
+        }
+    ],
+    "require": {
+        "php": "^7.0.8",
+        "excelwebzone/recaptcha-bundle": "^1.5",
+        "friendsofsymfony/user-bundle": "^2.0",
+        "javiereguiluz/easyadmin-bundle": "^1.17",
+        "nelmio/security-bundle": "^2.4",
+        "portphp/csv": "^1.0",
+        "portphp/doctrine": "^1.0",
+        "portphp/excel": "^1.0",
+        "portphp/steps": "^1.1",
+        "sensio/framework-extra-bundle": "^5.1",
+        "sllh/iso-codes-validator": "^3.1",
+        "symfony/apache-pack": "^1.0",
+        "symfony/asset": "3.4.*",
+        "symfony/cache": "3.4.*",
+        "symfony/class-loader": "3.4.*",
+        "symfony/config": "3.4.*",
+        "symfony/console": "3.4.*",
+        "symfony/dependency-injection": "3.4.*",
+        "symfony/doctrine-bridge": "3.4.*",
+        "symfony/dotenv": "3.4.*",
+        "symfony/event-dispatcher": "3.4.*",
+        "symfony/filesystem": "3.4.*",
+        "symfony/finder": "3.4.*",
+        "symfony/form": "3.4.*",
+        "symfony/framework-bundle": "3.4.*",
+        "symfony/http-foundation": "3.4.*",
+        "symfony/http-kernel": "3.4.*",
+        "symfony/inflector": "3.4.*",
+        "symfony/intl": "3.4.*",
+        "symfony/options-resolver": "3.4.*",
+        "symfony/orm-pack": "^1.0",
+        "symfony/process": "3.4.*",
+        "symfony/property-access": "3.4.*",
+        "symfony/routing": "3.4.*",
+        "symfony/security": "3.4.*",
+        "symfony/security-bundle": "3.4.*",
+        "symfony/swiftmailer-bundle": "^3.1",
+        "symfony/templating": "3.4.*",
+        "symfony/translation": "3.4.*",
+        "symfony/twig-bridge": "3.4.*",
+        "symfony/twig-bundle": "3.4.*",
+        "symfony/validator": "3.4.*",
+        "symfony/var-dumper": "3.4.*",
+        "symfony/yaml": "3.4.*",
+        "tetranz/select2entity-bundle": "dev-sf4",
+        "vich/uploader-bundle": "^1.6"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "doctrine/doctrine-fixtures-bundle": "^3.0",
+        "escapestudios/symfony2-coding-standard": "3.x-dev",
+        "kint-php/kint": "^2.2",
+        "nelmio/alice": "^3.1",
+        "squizlabs/php_codesniffer": "^3.2",
+        "symfony/debug": "3.4.*",
+        "symfony/dotenv": "3.4.*",
+        "symfony/flex": "^1.0",
+        "symfony/maker-bundle": "^1.0",
+        "symfony/phpunit-bridge": "3.4.*",
+        "symfony/profiler-pack": "^1.0",
+        "symfony/stopwatch": "3.4.*",
+        "symfony/web-profiler-bundle": "3.4.*",
+        "symfony/web-server-bundle": "3.4.*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "conflict": {
+        "symfony/symfony": "*",
+        "symfony/twig-bundle": "<3.3",
+        "symfony/debug": "<3.3"
+    },
+    "extra": {
+        "symfony": {
+            "id": "01C0HN7TQGB2S92AM22B2QNJ14",
+            "allow-contrib": "true"
+        }
+    }
+}

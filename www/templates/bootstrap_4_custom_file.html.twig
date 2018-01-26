@@ -1,0 +1,24 @@
+{% extends 'bootstrap_4_layout.html.twig' %}
+
+{% block form_help -%}
+    {% for attrname, attrvalue in attr %}
+        {% if attrname == 'data-help' %}
+            <small class="form-text text-muted">{{ attrvalue|trans|raw|nl2br }}</small>
+        {% endif %}
+    {% endfor %}
+{%- endblock form_help %}
+
+{% block form_errors -%}
+    {{ parent() }}
+    {{- block('form_help') -}}
+{%- endblock form_errors %}
+
+{% block file_widget %}
+    {% spaceless %}
+        <div class="custom-file">
+            {{ form_widget(form, { 'attr': { 'class': 'custom-file-input' }}) }}
+            {{ form_label(form, 'Choose file...', { 'label_attr': { 'class': 'custom-file-label' }}) }}
+            {{ form_errors(form) }}
+        </div>
+    {% endspaceless %}
+{% endblock %}

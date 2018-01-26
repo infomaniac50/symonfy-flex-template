@@ -1,0 +1,16 @@
+services:
+  db:
+    container_name: nelmio-mysql
+    environment:
+      MYSQL_DATABASE: nelmio_404
+      MYSQL_PASSWORD: nelmio_passwordz
+      MYSQL_ROOT_PASSWORD: "tepasswordzisroot"
+      MYSQL_USER: nelmio_404
+    image: mysql:5.7
+    ports:
+    - 3306:3306/tcp
+    volumes:
+    - data:/data:rw
+version: '3.0'
+volumes:
+  data: {}

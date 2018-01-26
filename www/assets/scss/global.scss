@@ -1,0 +1,20 @@
+.page {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.jumbotron + .container > .page {
+    padding-top: 0px;
+}
+
+// assets/css/global.scss
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+// the ~ allows you to reference things in node_modules
+@import '~bootstrap/scss/bootstrap';
+
+@import '~select2/src/scss/core';
+
+.is-invalid + .invalid-feedback {
+    display: block;
+}

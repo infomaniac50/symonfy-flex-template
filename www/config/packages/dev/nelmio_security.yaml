@@ -1,0 +1,9 @@
+nelmio_security:
+
+    # Allow everything for development
+    csp:
+        enforce:
+            default-src:
+                - '*'
+    flexible_ssl:
+        enabled: false

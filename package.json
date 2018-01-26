@@ -1,0 +1,21 @@
+{
+  "name": "player-contacts",
+  "version": "1.0.0",
+  "description": "A form for team admins to submit a travel permit, a certified roster, and a player contact sheet.",
+  "main": "index.js",
+  "author": "Derek Chafin",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.17.0",
+    "bootstrap": "4.0.0-beta.3",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.6.1",
+    "popper.js": "^1.12.9",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "select2": "^4.0.6-rc.1"
+  }
+}
