@@ -55,7 +55,7 @@ phpunit:
 autoload:
 	cd www/ && composer dumpautoload --optimize
 
-prepare: www/composer.lock www/vendor/autoload.php
+prepare: www/composer.lock www/vendor/autoload.php node_modules/
 
 www/vendor/autoload.php: www/composer.lock
 	cd www/ && composer install
