@@ -32,4 +32,4 @@ fos_user:
     user_class:        App\Entity\User
     from_email:
         address:       "test@example.com"
-        sender_name:   "Nelmio 404 Application"
+        sender_name:   "Symfony v3.4 Flex Template"

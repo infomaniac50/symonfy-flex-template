@@ -12,9 +12,9 @@
         <env name="KERNEL_CLASS" value="App\Kernel" />
         <env name="APP_ENV" value="test" />
         <env name="APP_DEBUG" value="1" />
-        <env name="APP_SECRET" value="tepasswordzisroot" />
+        <env name="APP_SECRET" value="thisisnotsecret" />
         <env name="SHELL_VERBOSITY" value="-1" />
-        <env name="DATABASE_URL" value="mysql://nelmio_404:nelmio_passwordz@127.0.0.1:3306/nelmio_404"/>
+        <env name="DATABASE_URL" value="mysql://symfony:changeme@127.0.0.1:3306/symfony"/>
         <!-- define your env variables for the test env here -->
     </php>
 

@@ -1,11 +1,11 @@
 services:
   db:
-    container_name: nelmio-mysql
+    container_name: symfony-mysql
     environment:
-      MYSQL_DATABASE: nelmio_404
-      MYSQL_PASSWORD: nelmio_passwordz
-      MYSQL_ROOT_PASSWORD: "tepasswordzisroot"
-      MYSQL_USER: nelmio_404
+      MYSQL_DATABASE: symfony
+      MYSQL_PASSWORD: changeme
+      MYSQL_ROOT_PASSWORD: "changeme"
+      MYSQL_USER: symfony
     image: mysql:5.7
     ports:
     - 3306:3306/tcp

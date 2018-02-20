@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Nelmio 404">
-  <description>Symfony Coding Standards for the Nelmio 404 Application</description>
+<ruleset name="Symfony v3.4 Flex Template">
+  <description>Symfony Coding Standards</description>
 
   <rule ref="Symfony" />
 
