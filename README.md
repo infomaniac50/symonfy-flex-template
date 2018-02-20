@@ -1,6 +1,6 @@
 # Symfony v3.4 Flex Template
 
-A template for Symfony 3.4 + Flex including FOSUserBundle and NelmioSecurityBundle.
+A template for Symfony 3.4 + Flex including FOSUserBundle, NelmioSecurityBundle, and EasyAdminBundle.
 
 These tools are installed globally:
 - Composer
