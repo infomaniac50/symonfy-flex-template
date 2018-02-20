@@ -1,4 +1,4 @@
-# Symfony v3.4 Flex Template 
+# Symfony v3.4 Flex Template
 
 A template for Symfony 3.4 + Flex including FOSUserBundle and NelmioSecurityBundle.
 
