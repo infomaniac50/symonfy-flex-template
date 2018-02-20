@@ -2,8 +2,6 @@ import "bootstrap";
 import isObject from "lodash/fp/isObject";
 import isNull from "lodash/fp/isNull";
 import isString from "lodash/fp/isString";
-import 'select2';
-import '../../public/bundles/tetranzselect2entity/js/select2entity.js';
 
 // handle custom file inputs
 $('body').on('change', 'input.custom-file-input', function (ev) {
