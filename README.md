@@ -15,3 +15,11 @@ cp www/.env.dist www/.env
 make
 bin/dev-server.sh
 ```
+
+## Features
+
+- Fancy frontend CSS with Bootstrap 4 (Alpha)
+- User management with FOSUserBundle
+- Strict Content Security Policies with NelmioSecurityBundle
+- Simple administration backends with EasyAdminBundle
+- Symfony Coding Standards with scapestudios/symfony2-coding-standard and PHPCS
