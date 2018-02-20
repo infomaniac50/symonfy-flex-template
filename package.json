@@ -1,7 +1,7 @@
 {
-  "name": "player-contacts",
+  "name": "symfony-flex-template",
   "version": "1.0.0",
-  "description": "A form for team admins to submit a travel permit, a certified roster, and a player contact sheet.",
+  "description": "A template for Symfony 3.4 + Flex including FOSUserBundle, NelmioSecurityBundle, and EasyAdminBundle.",
   "main": "index.js",
   "author": "Derek Chafin",
   "license": "MIT",

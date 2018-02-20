@@ -1,6 +1,6 @@
 {
-    "name": "derek/player-contacts",
-    "license": "proprietary",
+    "name": "infomaniac50/symfony-flex-template",
+    "license": "MIT",
     "type": "project",
     "autoload": {
         "psr-4": {
