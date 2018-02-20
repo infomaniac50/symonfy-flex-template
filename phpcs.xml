@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!-- TODO: Update application name from template defaults. -->
 <ruleset name="Symfony v3.4 Flex Template">
   <description>Symfony Coding Standards</description>
 

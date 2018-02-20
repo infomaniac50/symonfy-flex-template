@@ -30,6 +30,6 @@ fos_user:
     db_driver:         orm
     firewall_name:     main
     user_class:        App\Entity\User
-    from_email:
+    from_email: # TODO: Update FOS email config from template defaults.
         address:       "test@example.com"
         sender_name:   "Symfony v3.4 Flex Template"

@@ -37,6 +37,7 @@ class UserFixtures extends Fixture
 
         $user->setEnabled(true);
 
+        // TODO: Change the default password for admin.
         $password = $this->encoder->encodePassword($user, 'pass_1234');
         $user->setPassword($password);
 

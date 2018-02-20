@@ -1,10 +1,15 @@
 services:
   db:
+    # TODO: Change the default container name.
     container_name: symfony-mysql
     environment:
+      # TODO: Change the default database name.
       MYSQL_DATABASE: symfony
+      # TODO: Change the default password for MySQL standard user.
       MYSQL_PASSWORD: changeme
+      # TODO: Change the default password for MySQL root.
       MYSQL_ROOT_PASSWORD: "changeme"
+      # TODO: Change the default database name.
       MYSQL_USER: symfony
     image: mysql:5.7
     ports:
